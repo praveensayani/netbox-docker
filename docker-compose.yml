@@ -17,7 +17,7 @@ services:
     - ./scripts:/etc/netbox/scripts:z,ro
     - netbox-media-files:/opt/netbox/netbox/media:z
     ports:
-    - "8080"
+    - "80:8080"
   netbox-worker:
     <<: *netbox
     depends_on:
