@@ -1,5 +1,5 @@
 ARG FROM
-FROM netboxcommunity/netbox as builder
+FROM netbox as builder
 
 RUN apk add --no-cache \
       bash \
