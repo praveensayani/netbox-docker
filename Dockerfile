@@ -1,5 +1,5 @@
 ARG FROM
-FROM ${FROM} as builder
+FROM Praveen as builder
 
 RUN apk add --no-cache \
       bash \
